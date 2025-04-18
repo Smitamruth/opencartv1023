@@ -37,4 +37,31 @@ git --version
 Git and GitHub workflow:
 
 Working Directory ====> Staging Area ====> Git Repository.
-Untracked file (add)====> Tracked File (commit)====> Committed File (push)====> Remote File. 
+Untracked file (add)====> Tracked File (commit)====> Committed File (push)====> Remote File.
+
+1) Create a new local repository by using git init. (one time)
+2) Provide user info to the git repo. (one time)
+	git config --global user.name "your name"
+	git config --global user.email "your email"
+	git status - shows untracked files(still in local).
+	
+3) Adding files/folders to staging/indexing.
+	git add -A
+	git add filename
+	git add *.java
+	git add foldername
+	
+4) Commit te changes to Local repo.
+	git commit -m "commit message"
+	
+5) Form a connection between remote and local.
+	
+	Go to git hub and create a new repository and copy the link generated.
+	Ex:	https://github.com/Smitamruth/opencartv1023.git
+	
+	git remote add origin "https://github.com/Smitamruth/opencartv1023.git"  		==> connects local repo to remote repo.
+
+6) Push the code into remote repo.
+	git push origin master
+	
+	Go to github ==> settings ==> developers settings ==> personal access token classic
