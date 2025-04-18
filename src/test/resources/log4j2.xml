@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+	<Properties>
+		<Property name="basePath">./logs</Property>
+	</Properties>
+	<Appenders> <!-- Shows where to generate log file -->
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout
+				pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+		</Console>
+		<RollingFile name="File"
+			fileName="${basePath}/automation.log"
+			filePattern="${basePath}/automation-%d{yyyy-MM-dd}.log">
+			<PatternLayout
+				pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"></PatternLayout>
+
+			<Policies>
+				<OnStartupTriggeringPolicy />
+				<SizeBasedTriggeringPolicy />
+				<TimeBasedTriggeringPolicy />
+			</Policies>
+		</RollingFile>
+		<SizeBasedTriggeringPolicy size="10MB" />
+	</Appenders>
+	<Loggers> <!-- decides what level/type of logs generate -->
+		<Root level="Info"> <!-- ( All < Trace < Debug < Info < Error < Fatal < Off ). -->
+			<!-- Trace & Debug are detailed level of log which gives all transactions 
+				between client and server || Info is usually used. -->
+			<AppenderRef ref="Console" />	<!-- to generate in console -->
+			<AppenderRef ref="File" />	<!-- to generate in file -->
+		</Root>
+	</Loggers>
+</Configuration>

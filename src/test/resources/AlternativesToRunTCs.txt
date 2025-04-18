@@ -1,0 +1,61 @@
+pom.xml -- dependencies -- download required dependency jar for the project.
+		-- plugins - to compile and run the project.
+		
+Running tests using POM.XML
+		
+To run our xml file through pom.xml file, we need to add plugins -- maven compiler plugin & maven surefire plugin.
+
+  <build>
+    <!-- To define the plugin version in your parent POM -->
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.14.0</version>
+        </plugin>
+
+		<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-surefire-plugin</artifactId>
+			<version>3.5.3</version>
+				<configuration>
+					<suiteXmlFiles>
+						<suiteXmlFile>master.xml</suiteXmlFile>
+					</suiteXmlFiles>
+				</configuration>
+		</plugin>
+      </plugins>
+    </pluginManagement>    
+  </build>
+  
+Now right click, Run As ==> Maven Test. 
+
+pom.xml ====> master.xml ====> test cases ====> PageObject classes ====> Base class.
+
+**************************************************************************************************
+Running by using MAVEN SOFTWARE
+
+Install maven software in OS level to run the project from command prompt.
+
+https://maven.apache.org/download.cgi
+
+C:\Program Files\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin
+
+**************************************************************************************************
+Running tests from COMMAND PROMPT
+
+project location - C:\Users\ADMIN\eclipse-workspace\opencartv1023
+
+cd C:\Users\ADMIN\eclipse-workspace\opencartv1023
+dir
+mvn test
+
+*************************************************************************************************
+Put below 2 commands in run.bat file. For that create run.bat file in project path.
+
+cd C:\Users\ADMIN\eclipse-workspace\opencartv1023
+mvn test
+
+*************************************************************************************************
+

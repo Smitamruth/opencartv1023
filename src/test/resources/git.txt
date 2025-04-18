@@ -1,0 +1,40 @@
+Git(local repo) =====> Github(remote repo).
+
+Activities by Devops Team:  using process called PROCESS AUTOMATION.
+Build creation
+Run Automation
+Build Certification
+
+Build is created by taking code form Dev team repository. 
+Then automation is run by taking the code from Testing team repository. 
+Next day the build will be certified by DEVOPS team.
+That build will be downloaded in QA envt and further tests are carried out. 
+
+Maven: Compile code || Run code || Test code || Package || Install.
+Jenkins: Runs Automation.
+
+Whatever the dev team will do, same thing is done by QA team. But the difference is development team will develop the code for our app.
+The testing team will develop test scripts for automation purposes.
+Initial 2 or 3 builds we will not ave stable build. Hence no automation is done.
+After 2/3 builds, we start automating scripts and the TCs are pulled into remote repo. These are executed by devops on the same night.
+Thus most of the times, sanity tetsing is done during the night itself.
+Basic functionality will be tested in the devops itself.
+
+The build is created using Maven and automation is run using Jenkins. 
+
+***********************************************************************************************************************************************
+
+Pre-requisites:
+Git installation
+Git account creation
+
+git-scm download for windows 64 bit and install. Right click anywhere on desktop and click open git bash.
+
+git --version
+
+***********************************************************************************************************************************************
+
+Git and GitHub workflow:
+
+Working Directory ====> Staging Area ====> Git Repository.
+Untracked file (add)====> Tracked File (commit)====> Committed File (push)====> Remote File. 

@@ -1,0 +1,37 @@
+Grid - is a tool that works mainly on 2 components - 1) Hub 2) Nodes.
+	 - Grid is used to run the automated programs in remote environment.
+	 
+Client ====> Hub ====> Nodes.
+
+Hub is setup in the client machine itself. Its where the test cases are written and executed & where the entire setup is being controlled.
+Node is a remote machine - Different OS like Windows, Mac, Linux. And in every OS, different browsers are installed.
+
+Nodes are attached to Grid and Hub recognizes & controls all the nodes.
+While running the tests from hub, we specify which OS and which browser we want to run. 
+Thereby Hub uses this info and directs the test case to that machine/node.
+
+Ex: If you're running on a main host(WINDOWS machine). In this, you can install a VMware software and you can open the LINUX/MAC/UNIX. 
+	Thereby, we are maintaining many VMs.
+
+Setting up multiple VMs is as costly as getting different physical machines.
+
+Before Docker came into use, we used VMs. 
+VMs were installed and in those VMs, different browsers were installed ==> make them as nodes. This is difficult to maintain.
+
+To overcome the difficulty of using different VMs, we started using DOCKER.  
+Docker - automatically download the DOCKER image(machines will be available in the form of images) from the DOCKER REMOTE REPOs. 
+From that image, we create a container. Container, though not a VM, works as VM.
+We can download multiple images and create multiple containers in each image. Each container acts as a NODE.
+
+By default, the DOCKER contains GRID. Doesn't directly provide the nodes. We have to download images and create container which will act as nodes.
+
+Single system can act as HUB & NODE ==> such system is called as STANDALONE system.
+HUB with multiple NODES attached to it ==> called as DISTRIUTED system.
+
+2 types of setup possible:
+1) Standalone -- one system acts both as hub and node.
+2) Hub and Node setup -- multiple systems involved. 
+
+
+
+

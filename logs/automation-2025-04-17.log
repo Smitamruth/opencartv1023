@@ -1,0 +1,6 @@
+21:01:06.178 [main] INFO  testCases.TC002_LoginTest - *****Test case - Login Started*****
+21:01:06.424 [main] INFO  testCases.TC002_LoginTest - Clicked on My Account
+21:01:06.775 [main] INFO  testCases.TC002_LoginTest - Clicked on Login
+21:01:06.802 [main] INFO  testCases.TC002_LoginTest - Providing customer login details....
+21:01:07.223 [main] INFO  testCases.TC002_LoginTest - Validationg expeceted message..
+21:01:08.084 [main] INFO  testCases.TC002_LoginTest - *****Test case - Login Finished*****
