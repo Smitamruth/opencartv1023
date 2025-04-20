@@ -1,0 +1,29 @@
+18:19:36.149 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ADMIN\eclipse-workspace\opencartv1023\master.xml
+
+18:19:41.154 [main] INFO  testCases.TC006_EndToEndTest - *****Test case - End to End Started*****
+18:19:41.359 [main] INFO  testCases.TC006_EndToEndTest - Clicked on My Account
+18:19:41.945 [main] INFO  testCases.TC006_EndToEndTest - Clicked on Login
+18:19:41.949 [main] INFO  testCases.TC006_EndToEndTest - Providing customer login details....
+18:19:43.487 [main] INFO  testCases.TC006_EndToEndTest - Validationg expeceted message..
+18:19:43.561 [main] INFO  testCases.TC006_EndToEndTest - Providing item to be searched....
+18:19:44.290 [main] INFO  testCases.TC006_EndToEndTest - Verifying if item(s) exist....
+18:19:44.424 [main] INFO  testCases.TC006_EndToEndTest - Select the searched item
+18:19:46.498 [main] INFO  testCases.TC006_EndToEndTest - Set the quantity of items
+18:19:46.620 [main] INFO  testCases.TC006_EndToEndTest - Clicked AddToCart button
+18:19:46.747 [main] INFO  testCases.TC006_EndToEndTest - Clicked on Cart Button on top
+18:19:47.450 [main] INFO  testCases.TC006_EndToEndTest - Clicked View Cart option
+18:19:47.918 [main] INFO  testCases.TC006_EndToEndTest - Clicked on checkout
+18:19:47.932 [main] INFO  testCases.TC006_EndToEndTest - Clicked on Radio button for new address
+18:19:48.453 [main] INFO  testCases.TC006_EndToEndTest - Providing shipping details..
+18:19:57.388 [main] INFO  testCases.TC006_EndToEndTest - Clicked continue in billing section
+18:20:09.819 [main] INFO  testCases.TC006_EndToEndTest - Selected correct address from the shipping address dropdown
+18:20:11.026 [main] INFO  testCases.TC006_EndToEndTest - Clicked continue in shipping section
+18:20:11.130 [main] INFO  testCases.TC006_EndToEndTest - Added comment
+18:20:12.321 [main] INFO  testCases.TC006_EndToEndTest - Clicked continue in delivery method section
+18:20:12.461 [main] INFO  testCases.TC006_EndToEndTest - Clicked T&C checkbox
+18:20:13.718 [main] INFO  testCases.TC006_EndToEndTest - Clicked continue in payment section
+18:20:14.979 [main] INFO  testCases.TC006_EndToEndTest - Clicked confirm on checkout page
+18:20:16.995 [main] INFO  testCases.TC006_EndToEndTest - Validate the success message
+18:20:17.920 [main] INFO  testCases.TC006_EndToEndTest - Clicked continue in success page
+18:20:17.920 [main] INFO  testCases.TC006_EndToEndTest - *****Test case - End to End Started*****

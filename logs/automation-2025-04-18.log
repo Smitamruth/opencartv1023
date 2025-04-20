@@ -1,6 +1,6 @@
-13:54:50.356 [main] INFO  testCases.TC002_LoginTest - *****Test case - Login Started*****
-13:54:50.558 [main] INFO  testCases.TC002_LoginTest - Clicked on My Account
-13:54:50.955 [main] INFO  testCases.TC002_LoginTest - Clicked on Login
-13:54:50.958 [main] INFO  testCases.TC002_LoginTest - Providing customer login details....
-13:54:51.363 [main] INFO  testCases.TC002_LoginTest - Validationg expeceted message..
-13:54:52.126 [main] INFO  testCases.TC002_LoginTest - *****Test case - Login Finished*****
+15:22:11.802 [main] INFO  testCases.TC002_LoginTest - *****Test case - Login Started*****
+15:22:12.007 [main] INFO  testCases.TC002_LoginTest - Clicked on My Account
+15:22:12.462 [main] INFO  testCases.TC002_LoginTest - Clicked on Login
+15:22:12.473 [main] INFO  testCases.TC002_LoginTest - Providing customer login details....
+15:22:12.913 [main] INFO  testCases.TC002_LoginTest - Validationg expeceted message..
+15:22:13.787 [main] INFO  testCases.TC002_LoginTest - *****Test case - Login Finished*****

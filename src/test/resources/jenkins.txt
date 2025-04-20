@@ -1,0 +1,22 @@
+CI = Dev + Testn -- using Jenkins tool
+CD = by Release Engineering Team.
+
+Github(Testing) <====> Jenkins <====> Github(Dev)
+
+Jenkins pulls the code from Github repo of dev and builds it. 
+Other end, testing team puses the automation code and Jenkins pulls automation code and runs it.
+Once test cases are passed here, build will be certified.
+
+Jenkins Pipeline:
+Code ==> Build ==> Automation Testing ==> Deploy.
+ 
+Everyday the pipeline automatically executed based on the timeline given.
+
+Mostly Sanity and regression tests will be run inside jenkins itself.
+
+******************************************************************************************************
+
+https://github.com/Smitamruth/opencartv1023.git
+
+1) Install Jenkins. 
+2)

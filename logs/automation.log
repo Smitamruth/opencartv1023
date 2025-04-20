@@ -1,6 +1,28 @@
-15:22:11.802 [main] INFO  testCases.TC002_LoginTest - *****Test case - Login Started*****
-15:22:12.007 [main] INFO  testCases.TC002_LoginTest - Clicked on My Account
-15:22:12.462 [main] INFO  testCases.TC002_LoginTest - Clicked on Login
-15:22:12.473 [main] INFO  testCases.TC002_LoginTest - Providing customer login details....
-15:22:12.913 [main] INFO  testCases.TC002_LoginTest - Validationg expeceted message..
-15:22:13.787 [main] INFO  testCases.TC002_LoginTest - *****Test case - Login Finished*****
+18:25:01.478 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ADMIN\eclipse-workspace\opencartv1023\master.xml
+
+18:25:07.159 [main] INFO  testCases.TC006_EndToEndTest - *****Test case - End to End Started*****
+18:25:07.331 [main] INFO  testCases.TC006_EndToEndTest - Clicked on My Account
+18:25:07.785 [main] INFO  testCases.TC006_EndToEndTest - Clicked on Login
+18:25:07.788 [main] INFO  testCases.TC006_EndToEndTest - Providing customer login details....
+18:25:10.116 [main] INFO  testCases.TC006_EndToEndTest - Validationg expeceted message..
+18:25:10.183 [main] INFO  testCases.TC006_EndToEndTest - Providing item to be searched....
+18:25:10.724 [main] INFO  testCases.TC006_EndToEndTest - Verifying if item(s) exist....
+18:25:10.843 [main] INFO  testCases.TC006_EndToEndTest - Select the searched item
+18:25:12.781 [main] INFO  testCases.TC006_EndToEndTest - Set the quantity of items
+18:25:12.906 [main] INFO  testCases.TC006_EndToEndTest - Clicked AddToCart button
+18:25:13.040 [main] INFO  testCases.TC006_EndToEndTest - Clicked on Cart Button on top
+18:25:13.593 [main] INFO  testCases.TC006_EndToEndTest - Clicked View Cart option
+18:25:14.113 [main] INFO  testCases.TC006_EndToEndTest - Clicked on checkout
+18:25:14.124 [main] INFO  testCases.TC006_EndToEndTest - Clicked on Radio button for new address
+18:25:14.556 [main] INFO  testCases.TC006_EndToEndTest - Providing shipping details..
+18:25:23.469 [main] INFO  testCases.TC006_EndToEndTest - Clicked continue in billing section
+18:25:25.607 [main] INFO  testCases.TC006_EndToEndTest - Clicked continue in shipping section
+18:25:25.743 [main] INFO  testCases.TC006_EndToEndTest - Added comment
+18:25:26.869 [main] INFO  testCases.TC006_EndToEndTest - Clicked continue in delivery method section
+18:25:27.075 [main] INFO  testCases.TC006_EndToEndTest - Clicked T&C checkbox
+18:25:28.348 [main] INFO  testCases.TC006_EndToEndTest - Clicked continue in payment section
+18:25:30.188 [main] INFO  testCases.TC006_EndToEndTest - Clicked confirm on checkout page
+18:25:32.198 [main] INFO  testCases.TC006_EndToEndTest - Validate the success message
+18:25:33.022 [main] INFO  testCases.TC006_EndToEndTest - Clicked continue in success page
+18:25:33.022 [main] INFO  testCases.TC006_EndToEndTest - *****Test case - End to End Started*****

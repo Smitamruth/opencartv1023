@@ -1,0 +1,9 @@
+13:50:49.399 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ADMIN\eclipse-workspace\opencartv1023\master.xml
+
+13:50:53.990 [main] INFO  testCases.TC005_AddToCartTest - *****Test case - Add To Cart Started*****
+13:50:54.052 [main] INFO  testCases.TC005_AddToCartTest - Providing item to be searched....
+13:50:54.949 [main] INFO  testCases.TC005_AddToCartTest - Select the searched item
+13:50:55.883 [main] INFO  testCases.TC005_AddToCartTest - Set the quantity of items
+13:50:56.021 [main] INFO  testCases.TC005_AddToCartTest - Clicked AddToCart button
+13:50:56.267 [main] INFO  testCases.TC005_AddToCartTest - *****Test case - Add To Cart Finished*****

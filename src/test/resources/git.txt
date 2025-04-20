@@ -40,7 +40,7 @@ Working Directory ====> Staging Area ====> Git Repository.
 Untracked file (add)====> Tracked File (commit)====> Committed File (push)====> Remote File.
 
 1) Create a new local repository by using git init. (one time)
-2) Provide user info to the git repo. (one time)
+2) Provide user info to the git repo.				(one time)
 	git config --global user.name "your name"
 	git config --global user.email "your email"
 	git status - shows untracked files(still in local).
@@ -64,4 +64,27 @@ Untracked file (add)====> Tracked File (commit)====> Committed File (push)====> 
 6) Push the code into remote repo.
 	git push origin master
 	
-	Go to github ==> settings ==> developers settings ==> personal access token classic
+	Go to github ==> settings ==> developers settings ==> personal access token classic ==> Generate new token.
+	
+	Go to git bas and login either by token or using email. 
+	
+***********************************************************************************************************************************
+
+Next time while committing,
+
+add commmit push only.
+git add -A
+git commit -m "commit message"
+git push origin master
+
+***********************************************************************************************************************************
+
+To pull the code from remote to local
+
+git pull "https://github.com/Smitamruth/opencartv1023.git"
+
+**********************************************************************************************************************************
+
+To clone the project from remote
+Create a folder in desktop. Right click here and open git bash here. Now run the below command.
+git clone "https://github.com/Smitamruth/testrepo.git"

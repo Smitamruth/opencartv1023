@@ -29,14 +29,8 @@ public class TC002_LoginTest extends BaseClass {
 
 			logger.info("Providing customer login details....");
 			
-			FileInputStream file = new FileInputStream("./src//test//resources//config.properties");
-			pty = new Properties();   //very important to create an object of Properties class to avoid null pointer exception. 		
-			pty.load(file);
-			String email = pty.getProperty("email");
-			String password = pty.getProperty("password");
-			
-			lp.setEmail(email);
-			lp.setPassword(password);
+			lp.setEmail(getConfigProperty("email"));
+			lp.setPassword(getConfigProperty("password"));
 			lp.clickLogin();
 
 			logger.info("Validationg expeceted message..");

@@ -3,7 +3,6 @@ package testBase;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
@@ -13,14 +12,11 @@ import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
-import org.openqa.selenium.Platform;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
@@ -32,6 +28,7 @@ public class BaseClass {
 									// class here before calling captureScreen()).
 	public Logger logger; // from log4j
 	public Properties pty;
+	public static FileInputStream fi;
 
 	@BeforeClass(groups = { "sanity", "regression", "dataDriven", "master" })
 	@Parameters({ "os", "browser" })
@@ -85,7 +82,7 @@ public class BaseClass {
 
 	@AfterClass
 	public void tearDown() {
-		driver.close();
+		driver.quit();
 	}
 
 	public String randomString() {
@@ -117,6 +114,15 @@ public class BaseClass {
 		sourceFile.renameTo(targetFile);
 
 		return targetFilePath;
+	}
+	
+	public String getConfigProperty(String pptyName) throws IOException {
+		FileInputStream file = new FileInputStream("./src//test//resources//config.properties");
+		pty = new Properties();
+		pty.load(file);
+		
+		String ptyValue = pty.getProperty(pptyName);
+		return ptyValue;
 	}
 
 }
