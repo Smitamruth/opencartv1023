@@ -1,8 +1,0 @@
-22:09:34.721 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\ADMIN\eclipse-workspace\opencartv1023\master.xml
-
-22:09:39.069 [main] INFO  testCases.TC002_LoginTest - *****Test case - Login Started*****
-22:09:39.323 [main] INFO  testCases.TC002_LoginTest - Clicked on My Account
-22:09:39.689 [main] INFO  testCases.TC002_LoginTest - Clicked on Login
-22:09:39.693 [main] INFO  testCases.TC002_LoginTest - Providing customer login details....
-22:09:40.096 [main] INFO  testCases.TC002_LoginTest - Validationg expeceted message..
