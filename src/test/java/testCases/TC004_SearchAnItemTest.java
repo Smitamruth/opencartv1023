@@ -22,10 +22,6 @@ public class TC004_SearchAnItemTest extends BaseClass {
 			logger.info("*****Test case - Seacrh an item Started*****");
 			HomePage hp = new HomePage(driver);
 
-			FileInputStream file = new FileInputStream("./src//test//resources//config.properties");
-			pty = new Properties();
-			pty.load(file);
-
 			String item = getConfigProperty("searchProductName");
 			logger.info("Providing item to be searched....");
 			hp.search(item);

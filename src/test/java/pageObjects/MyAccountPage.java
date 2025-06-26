@@ -16,6 +16,12 @@ public class MyAccountPage extends BasePage {
 	@FindBy(xpath = "//h2[normalize-space()='My Account']")		//My Account Page Heading.
 	WebElement confirmationMsg;
 	
+	@FindBy(xpath="//input[@placeholder='Search']")
+	WebElement searchBox;
+	
+	@FindBy(xpath="//button[@class='btn btn-default btn-lg']")
+	WebElement searchBtn;
+	
 	public boolean isMyAccountPageExists() {
 		try {
 			return (confirmationMsg.isDisplayed());
@@ -26,6 +32,14 @@ public class MyAccountPage extends BasePage {
 	
 	public void clickLogout() {
 		lnkLogout.click();
+	}
+	
+	public void search(String item) {
+		searchBox.sendKeys(item);
+	}
+	
+	public void clickSearch() {
+		searchBtn.click();
 	}
 	
 }

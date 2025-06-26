@@ -16,7 +16,8 @@
 			<!-- <class name="testCases.TC003_LoginDataDrivenTest" />  -->
 			<!-- <class name="testCases.TC004_SearchAnItemTest" /> -->
 			<!-- <class name="testCases.TC005_AddToCartTest" /> -->
-				<class name="testCases.TC006_EndToEndTest" />
+			<!-- <class name="testCases.TC006_EndToEndTest" /> -->
+				<class name="testCases.TC007_AddToWishlistTest" />
 		</classes>
-	</test> 
+	</test>
 </suite>

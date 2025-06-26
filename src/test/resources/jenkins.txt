@@ -17,6 +17,3 @@ Mostly Sanity and regression tests will be run inside jenkins itself.
 ******************************************************************************************************
 
 https://github.com/Smitamruth/opencartv1023.git
-
-1) Install Jenkins. 
-2)

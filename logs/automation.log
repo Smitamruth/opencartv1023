@@ -1,0 +1,13 @@
+13:54:38.922 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ADMIN\eclipse-workspace\opencartv1023\master.xml
+
+13:54:43.463 [main] INFO  testCases.TC007_AddToWishlistTest - *****Test case - Add To WishList Started*****
+13:54:43.668 [main] INFO  testCases.TC007_AddToWishlistTest - Clicked on My Account
+13:54:44.253 [main] INFO  testCases.TC007_AddToWishlistTest - Clicked on Login
+13:54:44.262 [main] INFO  testCases.TC007_AddToWishlistTest - Providing customer login details....
+13:54:44.689 [main] INFO  testCases.TC007_AddToWishlistTest - Providing item to be searched....
+13:54:46.491 [main] INFO  testCases.TC007_AddToWishlistTest - Clicked Search button
+13:54:46.634 [main] INFO  testCases.TC007_AddToWishlistTest - Product added to Wishlist
+13:54:46.634 [main] INFO  testCases.TC007_AddToWishlistTest - Validationg expeceted message..
+13:54:46.954 [main] INFO  testCases.TC007_AddToWishlistTest - Clicked Wishlist button on top
+13:54:46.955 [main] INFO  testCases.TC007_AddToWishlistTest - *****Test case - Add To WishList Finished*****

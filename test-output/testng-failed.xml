@@ -5,13 +5,13 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC006_EndToEndTest">
+      <class name="testCases.TC007_AddToWishlistTest">
         <methods>
-          <include name="end_to_end_test"/>
+          <include name="add_To_Wishlist"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- testCases.TC006_EndToEndTest -->
+      </class> <!-- testCases.TC007_AddToWishlistTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
